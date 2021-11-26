@@ -1,59 +1,92 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+
+<head>
     <link rel="stylesheet" href="esilos.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0" />
     <title>Ejercicio 1</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <div>
-      <h2 style="text-align: center">Cifras covid-19 Colombia</h2>
+        <h2 style="text-align: center">Cifras covid-19 Colombia</h2>
     </div>
     <div>
-      <form>
-          <div>
-              <div>
-                <label>Departamento</label>
-              </div>
-              <div>
-                <select>
-                    <option>Antioquia</option>
-                    <option>Atlantico</option>
-                    <option>Bogotá DC</option>
-                    <option>Antioquia</option>
-                    <option>Antioquia</option>
-                    <option>Antioquia</option>
-                    <option>Antioquia</option>
-                </select>
-              </div>
-          </div>
-      </form>
+        <label>Departamento</label>
+        <select style="margin-top: 0.5%;">
+            <option>Antioquia</option>
+            <option>Atlantico</option>
+            <option>Bogotá DC</option>
+            <option>Antioquia</option>
+            <option>Antioquia</option>
+            <option>Antioquia</option>
+            <option>Antioquia</option>
+        </select>
     </div>
-    <div>
+    <div style="margin-top: 3%;">
         <table>
-            <thead>
-                <tr>
-                    <th>Departamento</th>
-                </tr>
-            </thead>
             <tbody>
+                <tr><h3>Total casos/dia</h3></tr>
                 <tr>
-                    <th>
+                    <td style="height: 30px;">
+                        <label>Fecha</label>
+                        <input type="date">
+                    </td>
+                </tr>
+  
+                <tr>
+                    <td style="text-align: left; height: 50px;">
+                        <label>Ciudad</label>
                         <select>
-                            <option>Antioquia</option>
-                            <option>Atlantico</option>
-                            <option>Bogotá DC</option>
-                            <option>Antioquia</option>
-                            <option>Antioquia</option>
-                            <option>Antioquia</option>
-                            <option>Antioquia</option>
+                            <option value="">ciudad 1</option>
+                            <option value="">ciudad 2</option>
+                            <option value="">ciudad 3</option>
                         </select>
-                    </th>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: left;">
+                        <label for="">Edad</label><br>
+                        <select name="" id="">
+                            <option value="">Menos de 49 Años</option>
+                            <option value="">Mayores de 50 Años</option>
+                        </select>
+                    </td>
+                    <td style="text-align: left;">
+                        <label for="">Genero</label><br>
+                        <select name="" id="">
+                            <option value="">Hombre</option>
+                            <option value="">Mujer</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: left; height: 50px;">
+                        <label>Cusa</label><br>
+                        <select>
+                            <option>Importado (Viaje)</option>
+                            <option>Realcionado</option>
+                            <option>En estudio</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: left; height: 50px;">
+                        <label>Manejo</label><br>
+                        <select>
+                            <option>Casa</option>
+                            <option>Hospital</option>
+                        </select>
+                    </td>
                 </tr>
             </tbody>
         </table>
     </div>
-  </body>
+    <div>
+
+    </div>
+</body>
+
 </html>
