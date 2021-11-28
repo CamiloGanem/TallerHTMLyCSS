@@ -1,0 +1,20 @@
+*{
+    font-family: fantasy;
+    font-size: 10px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+td, th{
+    border: 1px solid;
+}
+
+.fechas{
+    transform: rotate(-90.0deg);
+}
+
+div{
+    margin-left: 100px;
+    margin-right: 100px;
+}
