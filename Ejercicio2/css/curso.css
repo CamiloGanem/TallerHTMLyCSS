@@ -1,17 +1,18 @@
 body {
   margin-left: 50px;
   margin-right: 50px;
-  font-family: fantasy;
+  font-family: sans-serif;
   background-color: #58d68d;
-}
-
-ul {
-  text-align: right;
 }
 
 nav {
   padding: 5px;
   background-color: #5fa042;
+}
+
+nav ul {
+  text-align: right;
+  margin-right: 30px;
 }
 
 nav li {
@@ -63,16 +64,16 @@ header img {
 }
 
 .curso {
-  margin-left: 7%;
+  margin-left: 10%;
   margin-bottom: 2%;
-  width: 100%;
+  width: 80%;
   height: auto;
   background-color: white;
 }
 
 .perfil {
   width: auto;
-  height: 500px;
+  height: 400px;
   margin-bottom: 0px;
 }
 
@@ -82,7 +83,7 @@ header img {
   margin-bottom: -4px;
 }
 
-.descripcion {
+#inicio {
   width: auto;
   height: auto;
   padding-top: 10px;
@@ -91,7 +92,11 @@ header img {
   padding-bottom: 5px;
 }
 
-.descripcion p,
+#inicio h4 {
+  font-size: 30px;
+}
+
+#inicio p,
 h4 {
   padding-left: 20px;
   padding-right: 20px;
@@ -99,9 +104,95 @@ h4 {
   padding-top: 5px;
 }
 
-#p_horario {
-  margin-top: 20px;
-  opacity: 0.6;
+
+#nose{
+  display: flex;
+}
+
+#redes{
+  margin-top: 10px;
+  margin-left: 15%;
+}
+
+#descripcion {
+  margin-top: 30px;
+  margin-right: 30px;
+}
+
+iframe {
+  margin-left: 18.5%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#objetivos{
+  margin-left: 30px;
+}
+
+#objetivos h5 {
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+#objetivos ul {
+  padding-top: 0px;
+  text-align: left;
+  margin-left: 30px;
+}
+
+#temas{
+  margin-left: 30px;
+}
+
+#temas h5 {
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+#temas ul {
+  padding-top: 0px;
+  text-align: left;
+  margin-left: 30px;
+}
+
+#formulario{
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+#formulario form {
+  margin: 0 auto;
+  width: 300px;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+#formulario h5{
+  padding-top: 0px;
+  text-align: center;
+}
+
+#formulario ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#formulario li + li {
+  margin-top: 1em;
+}
+
+#formulario label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+#formulario button {
+  margin-left: 7em;
+  font-size: 18px;
+  padding: auto;
 }
 
 footer {

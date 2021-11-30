@@ -1,7 +1,7 @@
 body {
   margin-left: 50px;
   margin-right: 50px;
-  font-family: fantasy;
+  font-family: sans-serif;
   background-color: #58d68d;
 }
 
@@ -77,6 +77,11 @@ header img {
   background-color: white;
 }
 
+.curso a{
+  text-decoration: none;
+  color: black;
+}
+
 .perfil {
   width: auto;
   height: auto;
@@ -104,11 +109,17 @@ h4 {
   padding-right: 20px;
   margin: 0px;
   padding-top: 5px;
+  margin-top: 5px;
 }
 
-#p_horario{
-  margin-top: 20px;
-  opacity: 0.6;
+.pie_curso{
+  opacity: .6;
+  margin-top: 10px;
+}
+
+.pie_curso p{
+  margin: 0px;
+  padding-top: 0px;
 }
 
 footer{
