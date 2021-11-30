@@ -1,4 +1,5 @@
 body {
+  margin: 0;
   margin-left: 50px;
   margin-right: 50px;
   font-family: sans-serif;
@@ -6,6 +7,7 @@ body {
 }
 
 nav {
+  top: 0;
   padding: 5px;
   background-color: #5fa042;
 }
@@ -47,19 +49,19 @@ header img {
 }
 
 #div1 {
-  width: 10%;
+  width: 7.5%;
   background-color: #f1f1f1;
 }
 
 #div2 {
   padding-top: 10px;
   padding-bottom: 10px;
-  width: 80%;
+  width: 85%;
   background-color: #f1f1f1;
 }
 
 #div3 {
-  width: 10%;
+  width: 7.5%;
   background-color: #f1f1f1;
 }
 
@@ -68,7 +70,6 @@ header img {
   margin-bottom: 2%;
   width: 80%;
   height: auto;
-  background-color: white;
 }
 
 .perfil {
@@ -88,8 +89,10 @@ header img {
   height: auto;
   padding-top: 10px;
   margin-top: 0px;
+  margin-bottom: 40px;
   background-color: white;
   padding-bottom: 5px;
+  border-radius: 6px 6px;
 }
 
 #inicio h4 {
@@ -110,8 +113,26 @@ h4 {
 }
 
 #redes{
+  display: flex;
   margin-top: 10px;
-  margin-left: 15%;
+  margin-left: 24%;
+  background-color: white;
+}
+
+#redes a{
+  margin-left: 8px;
+  width: 35px;
+  height: 35px;
+}
+
+#redes a:hover{
+  opacity: .7;
+}
+
+#redes img{
+  border-radius: 25%;
+  width: 100%;
+  height: 100%;
 }
 
 #descripcion {
@@ -161,7 +182,7 @@ iframe {
 }
 
 #formulario form {
-  margin: 0 auto;
+  margin-left: 30px;
   width: 300px;
   padding: 1em;
   border: 1px solid #ccc;
@@ -191,9 +212,57 @@ iframe {
 
 #formulario button {
   margin-left: 7em;
-  font-size: 18px;
+  width: 100px;
   padding: auto;
+  font-size: 15px;
+  
 }
+
+#proximos{
+  border-radius: 6px;
+  margin-top: 20px;
+  padding: 25px;
+  background-color: white;
+}
+
+#curso_proxi{
+  display: flex;
+  margin-top: 10px;
+  height: 100px;
+  text-align: right;
+  box-shadow: 0 0 3px #5FA042;
+  border-radius: 0px 5px 5px 0px;
+}
+
+#curso_proxi h5{
+  margin: 0;
+  margin-right: 10px;
+  padding-top: 5px;
+}
+
+#img_proxi{
+  width: 200px;
+  height: auto;
+}
+
+#img_proxi img{
+  width: 100%;
+  height: 100%;
+}
+
+#descripcion_proxi{
+  text-align: left;
+  width: 70%;
+  height: auto;
+  margin: 0;
+}
+
+#descripcion_proxi h3{
+  padding: 0;
+  padding-top: 5px;
+  margin: 0;
+}
+
 
 footer {
   padding: 50px;
